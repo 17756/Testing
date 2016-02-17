@@ -19,8 +19,27 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int a = 0;
-            int b = 2;
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = n1 - n2;
+        }
+       
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = n1 + n2;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
