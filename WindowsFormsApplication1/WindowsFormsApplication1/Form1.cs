@@ -24,12 +24,18 @@ namespace WindowsFormsApplication1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox3.Text = n1 - n2;
+            int n1 = int.Parse(textBox1.Text);
+            int n2 = int.Parse(textBox2.Text);
+            int n3 = int.Parse(textBox1.Text) - int.Parse(textBox2.Text);
+            textBox3.Text = n3.ToString();
         }
        
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox3.Text = n1 + n2;
+            int n1 = int.Parse(textBox1.Text);
+            int n2 = int.Parse(textBox2.Text);
+            int n3 = int.Parse(textBox1.Text) + int.Parse(textBox2.Text);
+            textBox3.Text = n3.ToString();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
